@@ -1,155 +1,61 @@
 body {
 	margin: 0;
-	padding: 0;
-	background: #fafafa;
-	font: 'Helvetica' sans-serif;
+	font: 16px/20px 'Hevetica' sans-serif;
 }
 
-.page-header {
-	background: #003399;
-	color: #fafafa;
-	height: 95px;
+.top-nav {
+	background-color: black;
+	color: white;
+	height: 50px;
+	padding: 10px;
+}
 
+.columns {
+	float: left;
 
 }
 
-.header-text {
-	width:960px;
-	margin-left: 30px;
+.clearfix {
+	height:0;
+	clear:both;
 }
 
-.page-header h1 {
-	font-size: 28pt;
-	font-weight: bold;
-
-}
-.page-header h1 , 
-.page-header p {
-	display: inline-block;
-	vertical-align: baseline;
-	margin-top: 30px
-	
-}
-.page-header:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}
-
-.page-header p {
-	margin-left: 30px;
+.links {
 	float: right;
-	
+	//h1 is automatically an inline block
+	//percentage vs pix
 }
 
-.page-header a {
-	font-size: 18pt;
-	text-decoration: none;
-	color: #fafafa;
-	padding-left: 20px;
-	text-align: right;
-	
-}
-
-.page-headline {
-	font-size: 26pt;
-	color: #003399;
-	font-weight: bold;
-	text-align: center;
-	width: 960px;
-	padding-left: 30px;
-	padding-right: 30px;
-
-}
-
-.page-headline h1 {
-	margin: 0;
-}
-
-.midsection {
-	display: inline-block;
-	margin-left: 30px;
-
-}
-
-.column {
-	display: inline-block;
-	margin-right: 36px;
-	width: 296px;
-	vertical-align: top;
-	
-}
-
- 
-.column img{
-	width: inherit;
-}
+.middle-section {
 
 
-.midsection::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}
-
-
-.roster {
-	font-size: 18pt;
-	text-decoration: none;
-}
-
-
-.team-photo img {
-	width: 628px;
-	height: 450px;
-	padding-right: 36px;
-}
-
-.sidebar, 
-.team-photo  {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.sidebar img, 
-.sidebar p {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.sidebar img {
-	height: 80px;
-	width: 80px;
-	padding-right: 10px;
-	padding-bottom: 10px
-
-}
-
-.sidebar p {
-	width: 206px;
-	margin: 0;
-}
-
-
-.picture-box {
-	width: 960px;
-	margin-left: 30px;
-
-}
-
-.first-pics {
-	margin-right: 30px;
-	width: 296px;
-}
-.end-pics {
-	width: 296px;
-}
-
-.top-row {
-	margin-top: 10px;
-	margin-bottom: 30px;
 }
 
 
 
+.bottom-section {
+	background-color: #dddddd;
+}
+
+// CSS Stuff
+//Position
+//position: absolute - in regard to parent element, inside the parent element 
+//{
+//	position: absolute;
+//  top: 30px;
+//  left: 10px;
+//}
+//position: fixed - ex: nav bar
+
+//float - allows it to go as far left or right in the element that is containing it
+//float: inherit;
+//two elements float side by side
+//float takes elements "out of flow" - height wont apply to them -- add clearfix
+
+//clear: both
+//pseudo-classes - modifiers attached to selectors, specify a state or relation
+//a:visited
+//a:hover
+//a:active
+//order matters
 
