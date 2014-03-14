@@ -1,9 +1,8 @@
 body {
-	width: 1040px;
-	margin: 0 auto;
+	width: 1020px;
+	margin: auto auto;
 	padding: 0;
 	background: #fafafa;
-	font: 'Helvetica' sans-serif;
 	border-left-style: solid;
 	border-left-color: #003399;
 	border-left-width: 2px;
@@ -23,26 +22,24 @@ body {
 
 .header-text {
 	width:960px;
-	margin-left: 30px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .page-header h1 {
 	font-size: 28pt;
 	font-weight: bold;
+	float:left;
 
 }
 .page-header h1 , 
 .page-header p {
 	display: inline-block;
-	vertical-align: baseline;
-	margin-top: 30px
+	vertical-align: center;
+	margin-top: 30px;
 	
 }
-.page-header:after {
-    content: '';
-    display: inline-block;
-    width: 100%;
-}
+
 
 .page-header p {
 	margin-left: 30px;
@@ -60,47 +57,61 @@ body {
 }
 
 .page-headline {
-	font-size: 26pt;
+	font-size: 24pt;
 	color: #003399;
 	font-weight: bold;
-	text-align: center;
-	width: 960px;
-	padding-left: 30px;
-	padding-right: 30px;
+	
 
 }
 
 .page-headline h1 {
-	margin: 0;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .midsection {
-	display: inline-block;
-	margin-left: 30px;
+	width: 1020px;
 
 }
+.center-mid {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 .column {
+	margin-right: 32px;
+}
+
+
+.column,
+.column-far-right{
 	display: inline-block;
-	margin-right: 36px;
 	width: 296px;
 	vertical-align: top;
+	margin-left: 0;
 	
 }
 
+.column-far-right {
+	margin-right: 0;
+}
+
  
-.column img{
+.column img, 	
+.column-far-right img{
 	width: inherit;
 }
 
-.column a {
+.column a, .column-far-right a {
 	text-decoration: none;
 	color: black;
-}
-.midsection::after {
-    content: '';
-    display: inline-block;
-    width: 100%;
+	padding-left: 0;
 }
 
 
@@ -113,7 +124,7 @@ body {
 .team-photo img {
 	width: 628px;
 	height: 450px;
-	padding-right: 36px;
+	padding-right: 28px;
 }
 
 .sidebar, 
@@ -141,6 +152,10 @@ body {
 	margin: 0;
 }
 
+.bottom-section {
+	margin-left: 30px;
+	padding-bottom: 30px;
+}
 
 .picture-box {
 	width: 960px;
