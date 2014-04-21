@@ -145,8 +145,8 @@ body {
 
 .sidebar img {
 	height: 80px;
-	width: 80px;
-	padding-right: 10px;
+	width: 85px;
+	padding-right: 5px;
 	padding-bottom: 10px
 
 }
@@ -169,6 +169,9 @@ body {
 }
 .end-pics {
 	width: 296px;
+}
+.second-row {
+	margin-bottom: 30px;
 }
 
 .top-row {
